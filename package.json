@@ -8,7 +8,9 @@
     "test": "karma start test/karma.conf.js",
     "dev": "webpack-dev-server --config webpack.conf.dev.js",
     "start": "webpack-dev-server --config webpack.conf.demo.js",
-    "build": "webpack --config webpack.conf.build.js --hide-modules --progress"
+    "build": "webpack --config webpack.conf.build.js --hide-modules --progress",
+    "build:index": "npm run build",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@angular/common": "^7.2.7",
