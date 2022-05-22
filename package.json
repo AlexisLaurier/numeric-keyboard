@@ -12,7 +12,7 @@
     "build:index": "npm run build",
     "prepublish": "npm run build"
   },
-  "files": ["dist/**/*"],
+  "files": ["dist/*.js", "dist/**/*.js"],
   "devDependencies": {
     "@angular/common": "^7.2.7",
     "@angular/compiler": "^7.2.7",
