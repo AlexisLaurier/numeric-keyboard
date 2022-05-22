@@ -7,8 +7,7 @@
   "scripts": {
     "test": "karma start test/karma.conf.js",
     "dev": "webpack-dev-server --config webpack.conf.dev.js",
-    "start": "webpack-dev-server --config webpack.conf.demo.js",
-    "build": "webpack --config webpack.conf.build.js --hide-modules --progress"
+    "start": "webpack-dev-server --config webpack.conf.demo.js"
   },
   "files": ["dist/*.js", "dist/**/*.js"],
   "devDependencies": {
