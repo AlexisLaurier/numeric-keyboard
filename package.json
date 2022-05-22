@@ -2,7 +2,7 @@
   "name": "numeric-keyboard",
   "version": "0.7.0",
   "description": "Numeric keyboard for mobile browsers",
-  "repository": "viclm/numeric-keyboard",
+  "repository": "AlexisLaurier/numeric-keyboard",
   "license": "MIT",
   "scripts": {
     "test": "karma start test/karma.conf.js",
